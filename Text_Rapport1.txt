@@ -1,0 +1,34 @@
+**Nom du programme :** Main.java
+
+**Description du programme :** Ce programme Java est une application GUI simple qui permet à l'utilisateur de saisir des informations de support technique, telles que le service, le type de problème, l'urgence et la priorité. L'utilisateur peut appuyer sur le bouton "Send" pour envoyer ces informations. Le programme effectue également des validations pour s'assurer que les champs obligatoires sont remplis.
+
+**Analyse du code :**
+
+1. **Importations :**
+   - Le programme commence par importer les classes nécessaires à la création de l'interface graphique (Swing) et à la gestion des événements.
+
+2. **Fonction `main` :**
+   - La méthode `main` est le point d'entrée du programme. Elle crée une fenêtre (JFrame) avec différents composants graphiques.
+
+3. **Composants GUI :**
+   - Plusieurs composants Swing sont créés, notamment des boutons (JButton), des étiquettes (JLabel), des champs de texte (JTextField), des zones de texte (JTextArea), des cases à cocher (JCheckBox), des boutons radio (JRadioButton), et une liste déroulante (JComboBox). Ces composants sont utilisés pour collecter des informations de l'utilisateur.
+
+4. **Actions :**
+   - Des écouteurs d'événements sont ajoutés aux composants pour gérer les actions de l'utilisateur. Par exemple, un ActionListener est ajouté au bouton "Send" pour effectuer des validations et afficher un message d'information si les données sont valides.
+
+5. **Gestion des priorités :**
+   - Lorsque la case à cocher "Urgent" est cochée, les boutons radio pour sélectionner la priorité (Low, Medium, High) deviennent activés. Sinon, ils sont désactivés.
+
+6. **Validation :**
+   - Avant d'envoyer les données, le code effectue des vérifications pour s'assurer que les champs obligatoires ne sont pas vides. Si des champs obligatoires sont vides, un message d'erreur est affiché.
+
+7. **Affichage du résultat :**
+   - Si les données sont valides, un message d'information est affiché à l'utilisateur, récapitulant les informations saisies.
+
+8. **Disposition des composants :**
+   - Les composants GUI sont ajoutés au conteneur JFrame et positionnés à l'aide de dispositions nulles (null layout) et de la méthode `setBounds`. Cela permet un positionnement personnalisé des composants.
+
+9. **Mise en forme :**
+   - Une police personnalisée ("Bachir", taille 12) est définie pour certains composants. Le JTextArea a la capacité de défilement activée.
+
+**Conclusion :** Ce code Java crée une interface utilisateur simple pour collecter des informations de support technique, effectue des validations de base et affiche un message de confirmation lorsque les données sont valides. Il peut servir de base pour développer une application plus avancée de gestion des demandes de support.
