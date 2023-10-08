@@ -1,5 +1,4 @@
 # Rapport sur le Code - Application de Support Technique
-# Rapport (texte pas le code) écrit à l'aide de CHATGPT *
 **Nom du Programme :** Main.java
 
 **Description :** Cette application Java est une interface graphique (GUI) qui permet aux utilisateurs de saisir des informations liées au support technique, telles que le service, le type de problème, l'urgence et la priorité. L'application effectue des validations pour garantir que les champs obligatoires sont remplis.
