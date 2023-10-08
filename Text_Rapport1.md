@@ -29,7 +29,7 @@ Si les données sont valides, un message d'information est affiché à l'utilisa
 ### Disposition des Composants
 Les composants GUI sont ajoutés au conteneur JFrame et positionnés à l'aide de dispositions nulles (null layout) et de la méthode `setBounds`. Cela permet un positionnement personnalisé des composants.
 
-### Problèmes rencontrées
+### Problèmes rencontrés
 Le composant TextArea ("problem" dans le code) devait comporter un ScrollPane,toutes les recherches et les vidéos donnaient à peu près la même syntaxe avec quelques différences,et même en les testant toutes,toutes étaient un échec.
 
 ## Conclusion
