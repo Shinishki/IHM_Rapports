@@ -20,7 +20,7 @@ public class Main {
         JComboBox<String> type = new JComboBox<>(Type);
         JScrollPane scroll = new JScrollPane(problem,JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
 
-        Font font = new Font("Bachir",Font.PLAIN,12);
+        Font font = new Font("This is a test",Font.PLAIN,12);
 
         //Actions
         send.addActionListener(new ActionListener() {
