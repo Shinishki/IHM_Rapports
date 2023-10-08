@@ -29,8 +29,8 @@ Si les données sont valides, un message d'information est affiché à l'utilisa
 ### Disposition des Composants
 Les composants GUI sont ajoutés au conteneur JFrame et positionnés à l'aide de dispositions nulles (null layout) et de la méthode `setBounds`. Cela permet un positionnement personnalisé des composants.
 
-### Mise en Forme
-Une police personnalisée ("Bachir", taille 12) est définie pour certains composants. Le JTextArea a la capacité de défilement activée.
+### Problèmes rencontrées
+Le composant TextArea ("problem" dans le code) devait comporter un ScrollPane,toutes les recherches et les vidéos donnaient à peu près la même syntaxe avec quelques différences,et même en les testant toutes,toutes étaient un échec.
 
 ## Conclusion
 Ce code Java crée une interface utilisateur simple pour collecter des informations de support technique, effectue des validations de base et affiche un message de confirmation lorsque les données sont valides. Il peut servir de base pour développer une application plus avancée de gestion des demandes de support.
