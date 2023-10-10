@@ -1,3 +1,4 @@
+### Affichage du Résultat
 # Rapport sur le Code - Application de Support Technique
 **Nom du Programme :** Main.java
 
